@@ -1,0 +1,784 @@
+::-webkit-scrollbar{
+    background-color: transparent;
+}
+.container{
+    background-color: #7e57fe;
+    user-select: none;
+    margin-bottom: 28px;
+    border-radius: 14px;
+}
+
+.row{
+    height: 1414px;
+}
+
+/*left styles*/
+
+.left >div .grayBgLeft{
+    position: absolute;
+    left: -15px;
+    height: 1414px;
+    width: 419px;
+}
+.left .logo{
+    height: 269px;
+    width: 269px;
+    border-radius: 40px;
+    transform: rotate(45deg);
+    top: 85px;
+    right: 35px;
+    border: 3px solid #7e57fe;
+}
+.left .logo img{
+    width: 181px;
+    height: 181px;
+    transform: rotate(-45deg);
+    margin-left: -18px;
+    margin-top: -26px;
+}
+.left > div .leftContent{
+    top: 437px;
+    right: 84px;
+    color: #06344B;
+    font-weight: bold;
+}
+.left > div .leftContent > div img{
+   width: 34px;
+
+}
+.left > div .leftContent .workHour{
+    height: 55px;
+    width: 312px;
+    border-radius: 10px;
+    background-color: rgba(247, 146, 57, 0.8);
+    color: white;
+    box-shadow: 0 4px lightgrey;
+    padding: 1px 11px;
+    font-size: 16px;
+}
+.left > div .leftContent .workHour p:first-child{
+    width: 133px;
+}
+.left > div .leftContent .fehrest{
+    border-bottom: 4px solid #06344B;
+}
+.left > div .leftContent ul{
+    line-height: 35px;
+}
+.left > div .leftContent ul li{
+    position: relative;
+}
+.left > div .leftContent ul li:before{
+    content: url("../images/Rectangle 118.png");
+    position: absolute;
+    right: -21px;
+    top: 4px;
+}
+.left > div .leftContent ul li a{
+    display: block;
+    margin-right: 13px;
+}
+
+/*right styles*/
+
+.right >div .topBg{
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 787px;
+    height: 330px;
+    z-index: -1;
+}
+.right >div .topContent{
+   padding-top: 48px;
+}
+.right .rightContent{
+    z-index: 1;
+    margin-top: 45px;
+    margin-right: 71px;
+}
+.right .socialIcons img:first-child{
+   width: 80px;
+    border-radius: 2px;
+}
+.right .rightContent .titleLabel {
+    background-color: #E8F1F5;
+    color: #06344B;
+    height: 70px;
+    width: 670px;
+    border-bottom: 5px solid rgba(247, 146, 57, 0.8);
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+    font-size: 29px;
+    font-weight: bold;
+    margin-right: -86px;
+    margin-top: 39px;
+    margin-bottom: 32px;
+    border-bottom-left-radius: 44px;
+    border-top-left-radius: 44px;
+}
+.right .socialIcons img{
+    border-radius: 49%;
+    background-color: #7E57FE;
+    height: 35px;
+    width: 35px;
+    margin-left: 9px;
+}
+.right  .benefitLabel{
+    background-color: #E8F1F5!important;
+    border-radius: 47px;
+    width: 486px;
+    height: 70px;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+.right  .benefitLabel > div{
+    background-color: #7e57fe;
+    width: 78px;
+    height: 78px;
+    border-radius: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .numberCircle{
+    border-radius: 49%;
+    width: 67px;
+    height: 67px;
+    background-color: #D9D9D9;
+    border: 3px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.right .products{
+   margin-right: -27px;
+}
+.right .products > div{
+    background-color: #D9D9D9;
+    width: 165px;
+    height: 189px;
+    border-radius: 13px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 4px;
+}
+.right .products > div img{
+    width: 100%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+.right .team > div{
+    width: 109px;
+    margin: auto;
+}
+.right .team .rightImg{
+    right: -41px;
+    top: 55px;
+}
+.right .team .leftImg{
+    left: -41px;
+    top: 55px;
+}
+.right .team .bottomImg{
+    left: 41px;
+    top: 115px;
+}
+.right .team .personImg{
+    border: 5px solid #F79239;
+    border-radius: 49%;
+}
+.right .teamCard > div{
+    border-radius: 13px;
+    overflow: hidden;
+    width: 147px;
+    height: 166px;
+    margin-bottom: 34px;
+}
+.right .teamCard .personImg2{
+    border: 4px solid #F79239;
+    width: 100%;
+    height: 109px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.right .teamCard .personName{
+    background-color:  #F79239;
+    color: #06344B;
+}
+.right .teamCard .personJob{
+    color: #06344B;
+}
+.right table{
+    border-radius: 9px!important;
+    width: 521px;
+    border: 2px solid lightgray;
+    font-weight: bold;
+    border-collapse: separate;
+}
+.right table th:first-child{
+   background-color: #263b56;
+    color: white;
+    border-top-right-radius: 9px;
+}
+.right table th:last-child{
+   background-color: #f4a562;
+    color: white;
+    border-top-left-radius: 9px;
+}
+.right table td,table th{
+   color: gray;
+    padding: 9px 2px;
+}
+.right table tr:last-child td:last-child{
+    border-bottom-left-radius: 9px;
+}
+.right table tr:last-child td:first-child{
+    border-bottom-right-radius: 9px;
+}
+.mySwiper .swiper-slide{
+   background-color: #e8f1f6;
+    border-radius: 9px;
+    overflow: hidden;
+    text-align: center;
+}
+.mySwiper .swiper-slide img{
+   width: 200px;
+    border-radius: 9px;
+    border: 2px solid #0d333e;
+}
+.mySwiper .swiper-slide > div > div p:last-child{
+   color: #f5a560;
+}
+.swiper-button-prev, .swiper-button-next {
+    left: 10px;
+    right: auto;
+    background: #e8f1f6;
+    border-radius: 49px;
+    padding: 21px;
+}
+.swiper-button-prev:after {
+    content: 'prev';
+    font-size: 25px!important;
+    font-weight: bold!important;
+}
+.swiper-button-next:after {
+    content: 'next';
+    font-size: 25px!important;
+    font-weight: bold!important;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: 67%!important;
+}
+.swiper-button-prev {
+    left: 30px!important;
+}
+.swiper-button-next {
+    right: -70px!important;
+}
+.swiper-pagination-bullet-active {
+    background: #f5a560!important;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: -41px!important;
+    left: 48px!important;
+}
+.rightContent .btn{
+    top: 520px;
+    right: 162px;
+    font-size: 23px;
+    background: orange;
+    border-radius: 14px;
+    padding: 2px 29px;
+}
+.customerDiv{
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #e8f1f6;
+    height: 99px;
+}
+.customerDiv img{
+   width: 144px;
+    height: 90px;
+}
+.swiperContainer{
+    width: 546px;
+    padding: 22px 102px;
+    height: 239px;
+    border-radius: 13px;
+    border: 4px solid #f5a560;
+    background-color: #06344B;
+    overflow: hidden;
+}
+.mySwiper2 img{
+  border: 4px solid #f5a560;
+    border-radius: 14px;
+    width: 367px;
+}
+.swiper-button-prev.mySwiperTwo {
+    left: 62px!important;
+}
+.swiper-button-next.mySwiperTwo {
+    right: 22px!important;
+}
+.swiper-button-next.mySwiperTwo, .swiper-button-prev.mySwiperTwo {
+    top: 71%!important;
+}
+.w-custom {
+   width: 44px!important;
+    height: 44px!important;
+    border-radius: 49%!important;
+}
+.star {
+   width: 29px!important;
+    height: 29px!important;
+}
+.subSetImg {
+   background-color: #d9d9d9;
+    width: 66px;
+    border: 3px solid #f5a560;
+    border-radius: 49%;
+}
+.mySwiper3 img {
+    border-radius: 9px;
+    width: 169px;
+    height: 215px;
+}
+.swiper-button-next.mySwiperThree, .swiper-button-prev.mySwiperThree {
+    top: 68% !important;
+}
+.swiper-button-prev.mySwiperThree {
+        left: 74px!important;
+}
+.swiper-button-next.mySwiperThree {
+        right: 32px!important;
+}
+.shoebeUl li {
+       position: relative;
+    padding-right: 22px;
+}
+.shoebeUl li:before {
+    content: url(../images/ulBefore.png);
+    position: absolute;
+    right: -13px;
+    top: 4px;
+    filter: invert(1);
+}
+.shareTitle {
+    margin-right: -21px;
+}
+.share {
+    background-color: #f5a560;
+    border-radius: 9px;
+    width: 529px;
+    text-align: center;
+    padding: 11px;
+    margin-top: 466px;
+    cursor: pointer;
+}
+.chooseShareType {
+    width: 200px;
+    height: 195px;
+    background-color: #e8f1f6;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 9px;
+    overflow: hidden;
+    top: 518px;
+    left: 51px;
+    display: none;
+}
+.chooseShareType.active {
+    display: block;
+}
+.chooseShareType h4 {
+    background-color: #7E57FE;
+    color: white;
+    font-weight: bold;
+}
+.chooseShareType ul li {
+  border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+.chooseShareType ul li a {
+  display: block;
+}
+.right .bottomBg{
+    right: 0;
+    bottom: 0;
+    width: 743px;
+}
+
+@media screen and (max-width: 1200px){
+    .right .rightContent .titleLabel {
+        width: 493px;
+    }
+    .left .logo {
+        height: 240px;
+        width: 240px;
+        top: 76px;
+        right: -41px;
+    }
+    .left > div .leftContent {
+        right: 16px;
+    }
+    .right .benefitLabel {
+        margin-right: -81px;
+    }
+    .right .bottomBg {
+        width: 576px;
+    }
+    .right .products {
+        margin-right: -77px;
+    }
+    .right .products > div {
+        width: 139px;
+        height: 165px;
+        margin-left: 44px;
+    }
+    .team {
+        margin-right: -71px;
+        margin-left: 42px;
+    }
+    .right table {
+        width: 477px;
+        margin-right: -77px;
+    }
+    .right .jobDesc {
+        font-size: 18px;
+        margin-right: -50px;
+        line-height: 26px;
+    }
+    .right .jobUl {
+        font-size: 17px;
+        margin-right: -49px;
+        margin-top: 0!important;
+    }
+    .swiper {
+        width: 376px!important;
+        height: 233px!important;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        top: 74%!important;
+    }
+    .swiper-button-prev {
+        left: -3px!important;
+    }
+    .rightContent .btn {
+        top: 436px;
+        right: 95px;
+    }
+    .customerDiv {
+        margin-right: -52px;
+    }
+    .swiperContainer {
+        width: 409px;
+        margin-right: -46px;
+        padding: 22px 35px;
+    }
+    .swiper-button-prev.mySwiperTwo {
+        left: 20px!important;
+        background: #ffffffbd;
+    }
+    .swiper-button-next.mySwiperTwo {
+        right: -70px!important;
+        background: #ffffffbd;
+    }
+    .projectBtn,.commentsBtn {
+        right: 77px!important;
+    }
+    .swiper-button-prev.mySwiperThree {
+        left: 16px!important;
+        background: #ffffffbd;
+    }
+    .swiper-button-next.mySwiperThree {
+        right: -72px!important;
+        background: #ffffffbd;
+    }
+    .shoebeUl {
+        margin-right: -39px;
+        font-size: 18px;
+    }
+    .shareTitle {
+        font-size: 23px;
+        margin-right: -41px;
+    }
+    .share {
+        width: 313px;
+    }
+    .chooseShareType {
+        left: 94px;
+    }
+    }
+
+@media screen and (max-width: 992px){
+    .right .rightContent .titleLabel {
+        width: 109%;
+    }
+    .right .socialIcons {
+        margin-right: -87px;
+    }
+    .right .aboutDesc {
+        width: 85%!important;
+    }
+    .right .benefitLabel {
+        width: 108%;
+        margin-bottom: 22px;
+    }
+    .topBg,.bottomBg {
+        display: none;
+    }
+    .right .products > div {
+        width: 218px;
+        height: 239px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .right .products {
+        overflow-y: auto;
+        height: 802px;
+    }
+    .right .teamCard > div {
+        width: 222px;
+        height: 275px;
+        font-size: 26px;
+        box-shadow: 0 9px 20px 0;
+    }
+    .right .teamCard .personImg2 {
+        height: 223px;
+    }
+    .row.teamRow {
+        height: 2149px;
+    }
+    .team {
+        margin-right: -39px;
+        margin-left: 43px;
+    }
+    .teamCard  {
+        overflow-y: auto;
+        height: 1226px;
+    }
+    .right .teamCard .personName {
+        display: none;
+    }
+    .right .teamCard .personJob {
+        padding: 14px 2px;
+    }
+    .right table {
+        margin-right: 32px;
+    }
+    .right .jobDesc {
+        font-size: 24px;
+        margin-right: -40px;
+        line-height: 42px;
+    }
+    .row.jobRow {
+        height: 1681px;
+    }
+    .right .jobUl {
+        font-size: 22px;
+        margin-right: -37px;
+        margin-top: 39px !important;
+        line-height: 43px!important;
+    }
+    .right .rightContent .titleLabel.titleLabel2 {
+        width: 122%;
+    }
+    .swiper {
+        width: 580px!important;
+        height: 337px!important;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        top: 69%!important;
+    }
+    .swiper-button-prev {
+        left: -52px!important;
+    }
+    .rightContent .btn {
+        top: 550px;
+        right: 195px;
+    }
+    .customerDiv {
+        height: 124px;
+        width: 115%!important;
+    }
+    .swiperContainer {
+        width: 632px;
+        height: 346px;
+    }
+    .swiper2 {
+        width: 587px!important;
+        height: 278px!important;
+    }
+    .mySwiper2 img {
+        width: 586px;
+    }
+    .swiper-button-next.mySwiperTwo, .swiper-button-prev.mySwiperTwo {
+        top: 66%!important;
+    }
+    .swiper-button-prev.mySwiperTwo {
+        left: -22px!important;
+    }
+    .projectBtn {
+       right: 184px!important;
+        top: 567px!important;
+    }
+    .commentParagraph {
+        font-size: 24px;
+        margin-top: 46px!important;
+    }
+    .projectBtn, .commentsBtn {
+        right: 190px !important;
+        top: 549px!important;
+    }
+    .benefitLabel.benefitLabel2 {
+        width: 180%;!important;
+    }
+    .swiperContainer.swiperContainer2 {
+        height: 427px!important;
+    }
+    .mySwiper3 img {
+        width: 276px;
+        height: 301px;
+    }
+    .swiper2.mySwiper3 {
+        width: 587px!important;
+        height: 364px!important;
+    }
+    .swiper-button-prev.mySwiperThree {
+        left: -25px !important;
+    }
+    .swiper-button-next.mySwiperThree, .swiper-button-prev.mySwiperThree {
+        top: 60% !important;
+    }
+    .shoebeUl {
+        font-size: 27px;
+    }
+    .shareTitle {
+        font-size: 31px;
+        margin-right: -37px;
+        color: #ffe8d4!important;
+    }
+    .share {
+        width: 517px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .right .rightContent .titleLabel.titleLabel2 {
+        width: 126%;
+    }
+    .right .rightContent .titleLabel {
+        width: 110%;
+    }
+    .share {
+        width: 357px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .shareTitle {
+        font-size: 26px;
+        margin-right: -28px;
+    }
+    .shoebeUl {
+        font-size: 19px;
+    }
+    .right .rightContent .titleLabel {
+
+        padding-right: 42px;
+        font-size: 40px;
+    }
+    .swiperContainer.swiperContainer2 {
+        height: 344px!important;
+        width: 453px;
+    }
+    .mySwiper3 img {
+        width: 187px;
+        height: 268px;
+    }
+    .swiper2.mySwiper3 {
+        width: 410px!important;
+        height: 296px!important;
+    }
+    .chooseShareType {
+        left: 48px;
+        top: 536px;
+    }
+    .swiperContainer {
+        width: 453px;
+        height: 324px;
+    }
+    .swiper2 {
+        width: 419px !important;
+    }
+    .commentParagraph {
+        font-size: 20px;
+        margin-top: 12px!important;
+    }
+    .projectBtn, .commentsBtn {
+        right: 101px !important;
+        top: 529px!important;
+    }
+    .right .socialIcons {
+        margin-right: -66px;
+    }
+    .benefitLabel.benefitLabel2 {
+        width: 135%;
+    }
+    .mySwiper2 img {
+        width: 409px;
+    }
+    .swiperContainer.swiperContainer0 {
+        height: 261px;
+    }
+    .customerDiv {
+        width: 115%!important;
+    }
+    .swiper {
+        width: 406px!important;
+        height: 253px!important;
+    }
+    .rightContent .btn {
+        top: 464px;
+        right: 111px;
+    }
+    .right .jobDesc {
+        font-size: 21px;
+    }
+    .right .jobUl {
+        font-size: 20px;
+        margin-top: 12px !important;
+    }
+    .right table {
+        margin-right: -42px;
+        width: 449px;
+    }
+    .right .teamCard > div {
+        width: 174px;
+        height: 202px;
+    }
+    .right .teamCard .personImg2 {
+        height: 156px;
+    }
+    .right .products > div {
+        width: 203px;
+    }
+    .right .products {
+        margin-right: -57px;
+    }
+    .swiper-button-next.mySwiperThree, .swiper-button-prev.mySwiperThree {
+        top: 69% !important;
+    }
+    .swiper-button-next.mySwiperTwo, .swiper-button-prev.mySwiperTwo {
+        top: 71%!important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+}
